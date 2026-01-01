@@ -50,7 +50,7 @@ yarn start
 Frontend sẽ chạy tại: http://localhost:3000
 Tuy nhiên theo nội dung challenge, một số đoạn sẽ code cứng địa chỉ ví của Owner, khiến cho việc chạy front-end gặp lỗi. Thay vào test thủ công, ta có thể kiểm tra tính đúng đắn của challenge thông qua lệnh test như sau.
 ## Chạy Tests
-
+Lưu ý, đảm bảo đã chạy `yarn install` trước khi test.
 ```bash
 cd <tên thư mục challenge>
 yarn test
